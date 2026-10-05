@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>대학생활 목표 마인드맵 발표</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            Dohyeon Park
+        </div>
+        <a class="back-link" href="index.html">← 처음 화면으로</a>
+    </header>
+
+
+    <!-- Main -->
+    <main>
+
+        <!-- University Life -->
+        <section class="university-life">
+
+            <div class="mindmap-world" id="mindmapWorld">
+                <!-- Hero -->
+                <section id="home" class="hero">
+                    <p class="hero-subtitle">마인드맵 발표</p>
+                    <h1>My University Life Goal</h1>
+                    <p class="hero-description">대학생활 중 이루고자 하는 목표를 담은 마인드맵</p>
+                </section>
+
+                <svg class="mindmap-connections" aria-hidden="true"></svg>
+
+                <div class="center-node">
+                    <span>Goal</span>
+                    <strong>대학생활 목표</strong>
+                </div>
+
+
+            <!-- Academic -->
+            <div class="category-card academic" id="academic">
+
+                <div class="category-title">
+                    <span>01</span>
+                    <h2>주전공: 기계공학</h2>
+                </div>
+
+                <div class="category-items">
+
+                    <button class="item-card"
+                            data-section="me_study">
+                        학업 관리
+                    </button>
+
+                    <button class="item-card"
+                            data-section="me_ability">
+                        전공 관련 역량
+                    </button>
+
+                    <button class="item-card"
+                            data-section="me_experience">
+                        전공 관련 경험
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Major -->
+            <div class="category-card major" id="major">
+
+                <div class="category-title">
+                    <span>02</span>
+                    <h2>복수전공: 지식재산학</h2>
+                </div>
+
+                <div class="category-items">
+
+                    <button class="item-card"
+                            data-section="IP_activities">
+                        비교과
+                    </button>
+
+                    <button class="item-card"
+                            data-section="IP_career">
+                        진로 대비
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Activities -->
+            <div class="category-card activities"
+                 id="activities">
+
+                <div class="category-title">
+                    <span>03</span>
+                    <h2>부전공: 반도체공학</h2>
+                </div>
+
+                <div class="category-items">
+
+                    <button class="item-card"
+                            data-section="semiconductor_study">
+                        학업 관리
+                    </button>
+
+                    <button class="item-card"
+                            data-section="semiconductor_ability">
+                        전공 역량
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Personal -->
+                 <div class="category-card personal"
+                     id="personal">
+
+                <div class="category-title">
+                    <span>04</span>
+                    <h2>비교과 활동</h2>
+                </div>
+
+                <div class="category-items">
+
+                    <button class="item-card"
+                            data-section="social">
+                        사회성 기르기
+                    </button>
+
+                    <button class="item-card"
+                            data-section="personal_ability">
+                        개인 역량
+                    </button>
+
+                    <button class="item-card"
+                            data-section="hobby">
+                        취미
+                    </button>
+
+                    <button class="item-card"
+                            data-section="etc">
+                        기타
+                    </button>
+
+                </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
