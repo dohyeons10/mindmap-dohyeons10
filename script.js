@@ -51,7 +51,14 @@ function createBranch(section, content) {
         const listItem = document.createElement('li');
         listItem.style.setProperty('--branch-delay', `${index * 100}ms`);
 
-        if (section === 'etc' && item === '포트폴리오 꾸준히 업데이트하기') {
+        if (section === 'etc' && item === '블로그 운영하기') {
+            const link = document.createElement('a');
+            link.href = 'https://blog.naver.com/dohyeons10';
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = item;
+            listItem.appendChild(link);
+        } else if (section === 'etc' && item === '포트폴리오 꾸준히 업데이트하기') {
             const link = document.createElement('a');
             link.href = 'https://portfolio-dohyeons10-mk2.vercel.app';
             link.target = '_blank';
